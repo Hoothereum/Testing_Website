@@ -1,0 +1,424 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="page1.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.newsviewer.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wwb16.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_Heading1').addClass('visibility-hidden');
+   $('#wb_FontAwesomeIcon3').addClass('visibility-hidden');
+   $('#wb_FontAwesomeIcon8').addClass('visibility-hidden');
+   $('#wb_FontAwesomeIcon10').addClass('visibility-hidden');
+   $('#wb_FontAwesomeIcon11').addClass('visibility-hidden');
+   $('#wb_FontAwesomeIcon27').addClass('visibility-hidden');
+   $('#wb_FontAwesomeIcon27').addClass('visibility-hidden');
+   function onScrollHeading1()
+   {
+      var $obj = $("#wb_Heading1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Heading1', 'vanish-in', 100, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Heading1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Heading1').inViewPort(true))
+   {
+      $('#wb_Heading1').addClass("in-viewport");
+   }
+   onScrollHeading1();
+   $(window).scroll(function(event)
+   {
+      onScrollHeading1();
+   });
+   var NewsFeedTicker1_Data = new Array();
+   NewsFeedTicker1_Data[0] = ["", "Hoothereum Token", "", ""];
+   NewsFeedTicker1_Data[1] = ["", "Hootehreum Mining", "", ""];
+   NewsFeedTicker1_Data[2] = ["", "Hootehreum Blockchain", "", ""];
+   NewsFeedTicker1_Data[3] = ["", "Everything is Crypto", "", ""];
+   NewsFeedTicker1_Data[4] = ["", "Welcome To Hoothereum", "", ""];
+   $("#NewsFeedTicker1").newsviewer({ mode: 'rotate', pause: 2000, pause: 2000, animation: 4, animationDuration: 500, sortOrder: 0, dataSource: 'local', param: NewsFeedTicker1_Data, target: '_self', includeDate: false, maxItems: 10});
+   $("a[href*='#skills']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_skills').offset().top }, 600, 'linear');
+   });
+   $("#progressbar_uidesign").progressbar(
+   {
+      value: 80
+   });
+   $("#progressbar_jquery").progressbar(
+   {
+      value: 60
+   });
+   $("#progressbar_php").progressbar(
+   {
+      value: 75
+   });
+   $("#progressbar_html").progressbar(
+   {
+      value: 90
+   });
+   function onScrollFontAwesomeIcon3()
+   {
+      var $obj = $("#wb_FontAwesomeIcon3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_FontAwesomeIcon3', 'transform-lightspeed-in', 100, 1000);
+      }
+   }
+   onScrollFontAwesomeIcon3();
+   $(window).scroll(function(event)
+   {
+      onScrollFontAwesomeIcon3();
+   });
+   function onScrollFontAwesomeIcon8()
+   {
+      var $obj = $("#wb_FontAwesomeIcon8");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_FontAwesomeIcon8', 'transform-lightspeed-in', 200, 1000);
+      }
+   }
+   onScrollFontAwesomeIcon8();
+   $(window).scroll(function(event)
+   {
+      onScrollFontAwesomeIcon8();
+   });
+   function onScrollFontAwesomeIcon10()
+   {
+      var $obj = $("#wb_FontAwesomeIcon10");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_FontAwesomeIcon10', 'transform-lightspeed-in', 300, 1000);
+      }
+   }
+   onScrollFontAwesomeIcon10();
+   $(window).scroll(function(event)
+   {
+      onScrollFontAwesomeIcon10();
+   });
+   function onScrollFontAwesomeIcon11()
+   {
+      var $obj = $("#wb_FontAwesomeIcon11");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_FontAwesomeIcon11', 'transform-lightspeed-in', 400, 1000);
+      }
+   }
+   onScrollFontAwesomeIcon11();
+   $(window).scroll(function(event)
+   {
+      onScrollFontAwesomeIcon11();
+   });
+   function onScrollFontAwesomeIcon27()
+   {
+      var $obj = $("#wb_FontAwesomeIcon27");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_FontAwesomeIcon27', 'transform-lightspeed-in', 600, 1000);
+      }
+   }
+   onScrollFontAwesomeIcon27();
+   $(window).scroll(function(event)
+   {
+      onScrollFontAwesomeIcon27();
+   });
+   function onScrollIconFont1()
+   {
+      var $obj = $("#wb_IconFont1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_FontAwesomeIcon27', 'transform-lightspeed-in', 600, 1000);
+      }
+   }
+   onScrollIconFont1();
+   $(window).scroll(function(event)
+   {
+      onScrollIconFont1();
+   });
+});
+</script>
+
+<script>
+$(document).ready(function()
+{
+   var $progressbars = $('.ui-progressbar');
+   
+   $progressbars.each(function() 
+   {
+     var $obj = $(this);
+     $obj.data('value', $obj.progressbar('option', 'value'));
+     $obj.data('done', false);
+     $obj.progressbar('option', 'value', 0);
+    
+     $obj.css('position', 'relative');
+     $obj.append('<div class="progress-label">0%</div>');
+   });
+   $(window).bind('scroll', function() 
+   {
+      $progressbars.each(function() 
+      {
+         var $obj = $(this);
+         if (!$obj.data('done') && $(window).scrollTop() + $(window).height() >= $obj.offset().top) 
+         {
+            $obj.data('done', true);
+            $obj.animate({scroll: 1}, 
+            { 
+               duration: 3000, 
+               step: function(now) 
+               {
+                  var $obj = $(this);
+                  var val = Math.round($obj.data('value') * now);
+                  $obj.progressbar('option', 'value', val);
+                  $obj.find('.progress-label').text(val + '%').css('color', (val > 50) ? "#FFFFFF" : "#265A88");
+               }
+            });
+         }
+      });
+   }).triggerHandler('scroll');
+});
+</script>
+</head>
+<body>
+
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1-overlay"></div>
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading1" style="display:inline-block;width:100%;z-index:0;">
+<h1 id="Heading1">Welcome To Hoothereum</h1>
+</div>
+</div>
+<div class="col-2">
+<div id="NewsFeedTicker1" style="overflow:hidden;height:100px;z-index:1;">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading7" style="display:inline-block;width:100%;z-index:2;">
+<h1 id="Heading7">Hoothereum Token Project</h1>
+</div>
+<div id="wb_Shape3" style="display:inline-block;width:112px;height:3px;z-index:3;position:relative;">
+<div id="Shape3"></div>
+</div>
+<div id="wb_Heading6" style="display:inline-block;width:100%;z-index:4;">
+<h2 id="Heading6">Available in TRC-20 Blockchain</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card7" style="display:flex;width:100%;z-index:5;">
+   <div id="Card7-card-body">
+      <div id="Card7-card-item0"><i class="fa fa-info"></i></div>
+      <div id="Card7-card-item1">Introduction</div>
+      <div id="Card7-card-item2">The Hoothereum token is a one of the Hoothereum ecosystem.  We make this great for our investors and our personal users.</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Card1" style="display:flex;width:100%;z-index:6;">
+   <div id="Card1-card-body">
+      <div id="Card1-card-item0"><i class="fa fa-exchange"></i></div>
+      <div id="Card1-card-item1">Exchange</div>
+      <div id="Card1-card-item2">Wanna to hold Hoothereum? Currently you can do this by using Pancake Swap and remember right now we are available in TRC-20 network.</div>
+   </div>
+</div>
+<a id="Button4" href="" style="display:inline-block;width:293px;height:35px;z-index:7;">Go To Pancake Swap</a>
+</div>
+<div class="col-3">
+<div id="wb_Card2" style="display:flex;width:100%;z-index:8;">
+   <div id="Card2-card-body">
+      <div id="Card2-card-item0"><i class="fa fa-github"></i></div>
+      <div id="Card2-card-item1">Source Code</div>
+      <div id="Card2-card-item2">If you want to know how we build this, you can visit our Github. We are very transparent with our code programs.</div>
+   </div>
+</div>
+<a id="Button3" href="" style="display:inline-block;width:293px;height:35px;z-index:9;">Go To Github</a>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card3" style="display:flex;width:100%;z-index:10;">
+   <div id="Card3-card-body">
+      <div id="Card3-card-item0"><i class="fa fa-cube"></i></div>
+      <div id="Card3-card-item1">Powered by Tron</div>
+      <div id="Card3-card-item2">Right now, we are using Tron Blockchain (TRC-20) as our token infrastructure. Why did we choose Tron? That's because Tron has a much lower gas fee than other blockchains.</div>
+   </div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Card4" style="display:flex;width:100%;z-index:11;">
+   <div id="Card4-card-body">
+      <div id="Card4-card-item0"><i class="fa fa-file-pdf-o"></i></div>
+      <div id="Card4-card-item1">White Paper</div>
+      <div id="Card4-card-item2">See our Hoothereum Token white paper. We always update our White Paper to become more perfect.</div>
+   </div>
+</div>
+<a id="Button2" href="" style="display:inline-block;width:293px;height:35px;z-index:12;">Open White Paper</a>
+</div>
+<div class="col-3">
+<div id="wb_Card5" style="display:flex;width:100%;z-index:13;">
+   <div id="Card5-card-body">
+      <div id="Card5-card-item0"><i class="fa fa-check"></i></div>
+      <div id="Card5-card-item1">Online</div>
+      <div id="Card5-card-item2">Hoothereum Token Powered By Tron Blockchain now is online and ready to use for all people around the world.</div>
+   </div>
+</div>
+<a id="Button1" href="" style="display:inline-block;width:293px;height:35px;z-index:14;">Go To Tron Blockchain</a>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Divider3">
+<div id="Divider3">
+<hr id="DividerLine3" style="display:block;">
+<div id="wb_Heading2" style="display:inline-block;width:165px;z-index:16;">
+<h2 id="Heading2">Our Developers</h2>
+</div>
+<hr id="DividerLine4" style="display:block;">
+</div>
+</div>
+<div id="wb_CardContainer9">
+<div id="CardContainer9">
+<div id="wb_Card23" style="display:flex;z-index:18;">
+   <div id="Card23-card-body">
+      <img id="Card23-card-item0" src="WhatsApp Image 2021-11-24 at 6.53.54 AM.jpeg" alt="" title="">
+      <div id="Card23-card-item1">Anli Angku (Anli)</div>
+      <div id="Card23-card-item2">CEO & CO-FOUNDER</div>
+      <div id="Card23-card-item3"><i class="fa fa-instagram"></i></div>
+      <div id="Card23-card-item4"><i class="fa fa-envelope-open"></i></div>
+      <div id="Card23-card-item5"><i class="fa fa-telegram"></i></div>
+      <div id="Card23-card-item6"><i class="fa fa-twitter"></i></div>
+      <div id="Card23-card-item7">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis."</div>
+   </div>
+</div>
+<div id="wb_Card24" style="display:flex;z-index:19;">
+   <div id="Card24-card-body">
+      <img id="Card24-card-item0" src="images/ghost.png" alt="" title="">
+      <div id="Card24-card-item1">Very Cute Ghost. BOO!</div>
+      <div id="Card24-card-item2">"Anli work alone to make this project become reality. I'm as a favorite pets of our CEO & Co-Founder. BOO... BOO..."</div>
+   </div>
+</div>
+</div>
+</div>
+<div id="wb_Divider1">
+<div id="Divider1-overlay"></div>
+<div id="Divider1">
+<div class="row">
+<div class="col-1">
+<hr id="DividerLine1" style="display:block;width: 100%;z-index:20;">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_skills">
+<div id="skills">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text5">
+<span style="color:#FFFFFF;font-family:Arial;font-size:32px;"><strong>OUR SKILLS</strong></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<label for="" id="Label5" style="display:block;width:100%;line-height:16px;z-index:22;">HTML/CSS:</label>
+<div id="progressbar_html"  style="display:block;width:100%;height:28px;z-index:23;">
+</div>
+<label for="" id="Label6" style="display:block;width:100%;line-height:16px;z-index:24;">UI Design:</label>
+<div id="progressbar_uidesign"  style="display:block;width:100%;height:28px;z-index:25;">
+</div>
+<label for="" id="Label7" style="display:block;width:100%;line-height:16px;z-index:26;">jQuery:</label>
+<div id="progressbar_jquery"  style="display:block;width:100%;height:28px;z-index:27;">
+</div>
+<label for="" id="Label8" style="display:block;width:100%;line-height:16px;z-index:28;">PHP:</label>
+<div id="progressbar_php"  style="display:block;width:100%;height:28px;z-index:29;">
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid9">
+<div id="LayoutGrid9-overlay"></div>
+<div id="LayoutGrid9">
+<div class="row">
+<div class="col-1">
+<hr id="Line2" style="display:block;width: 100%;z-index:31;">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid8">
+<div id="LayoutGrid8">
+<div class="row">
+<div class="col-1">
+<div id="wb_FontAwesomeIcon3" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:32;">
+<a href="./index.html"><div id="FontAwesomeIcon3"><i class="fa fa-instagram"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon8" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:33;">
+<a href="./index.html"><div id="FontAwesomeIcon8"><i class="fa fa-twitter"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon10" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:34;">
+<a href="./index.html"><div id="FontAwesomeIcon10"><i class="fa fa-telegram"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon11" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:35;">
+<a href="./index.html"><div id="FontAwesomeIcon11"><i class="fa fa-envelope"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon27" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:36;">
+<a href="./index.html"><div id="FontAwesomeIcon27"><i class="fa fa-rss"></i></div></a>
+</div>
+<div id="wb_IconFont1" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:37;">
+<a href="./index.html"><div id="IconFont1"><i class="fa fa-keyboard-o"></i></div></a>
+</div>
+<div id="wb_Text17">
+<span style="color:#696969;font-family:Verdana;font-size:17px;">Copyright © 2021 - Hootehreum Project Teams</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
